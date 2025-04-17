@@ -1,0 +1,808 @@
+power_state {
+  motor_power_state: STATE_ON
+  shore_power_state: STATE_OFF_SHORE_POWER
+  locomotion_charge_percentage {
+    value: 96
+  }
+  locomotion_estimated_runtime {
+    seconds: 5431
+    nanos: 905273437
+  }
+  robot_power_state: ROBOT_POWER_STATE_ON
+  payload_ports_power_state: PAYLOAD_PORTS_POWER_STATE_ON
+  wifi_radio_power_state: WIFI_RADIO_POWER_STATE_ON
+}
+battery_states {
+  identifier: "a2-23b27-0013"
+  charge_percentage {
+    value: 96
+  }
+  estimated_runtime {
+    seconds: 5431
+    nanos: 905273437
+  }
+  current {
+    value: -5.1000003814697266
+  }
+  voltage {
+    value: 56.1400032043457
+  }
+  temperatures: 33.777778625488281
+  temperatures: 33.211112976074219
+  temperatures: 34.355556488037109
+  temperatures: 34.018520355224609
+  temperatures: 33.107406616210938
+  temperatures: 33.681480407714844
+  temperatures: 33.096294403076172
+  temperatures: 33.796295166015625
+  temperatures: 33.933334350585938
+  temperatures: 33.477779388427734
+  status: STATUS_DISCHARGING
+}
+comms_states {
+  timestamp {
+    seconds: 1744877851
+    nanos: 636707679
+  }
+  wifi_state {
+    current_mode: MODE_CLIENT
+  }
+}
+comms_states {
+  timestamp {
+    seconds: 1744877851
+    nanos: 636707679
+  }
+}
+comms_states {
+  timestamp {
+  }
+}
+system_fault_state {
+  historical_faults {
+    name: "p1_system_monitor_fault"
+    onset_timestamp {
+      seconds: 1744877810
+      nanos: 621079808
+    }
+    duration {
+    }
+    code: 2
+    error_message: "Robot\'s maximum CPU temperature has been exceeded. Please inspect and clean cooling fan filters."
+    attributes: "vision"
+    severity: SEVERITY_WARN
+    uid: 8859419650
+  }
+}
+estop_states {
+  timestamp {
+    seconds: 1744877852
+    nanos: 498964992
+  }
+  name: "hardware_estop"
+  type: TYPE_HARDWARE
+  state: STATE_NOT_ESTOPPED
+}
+estop_states {
+  timestamp {
+    seconds: 1744877852
+    nanos: 498964992
+  }
+  name: "payload_estop"
+  type: TYPE_HARDWARE
+  state: STATE_NOT_ESTOPPED
+}
+estop_states {
+  timestamp {
+    seconds: 1744877852
+    nanos: 498964992
+  }
+  name: "software_estop"
+  type: TYPE_SOFTWARE
+  state: STATE_NOT_ESTOPPED
+}
+kinematic_state {
+  joint_states {
+    name: "fl.hx"
+    position {
+      value: 0.12087865918874741
+    }
+    velocity {
+      value: 0.0076034162193536758
+    }
+    acceleration {
+      value: -1.2369389533996582
+    }
+    load {
+      value: -11.749683380126953
+    }
+  }
+  joint_states {
+    name: "fl.hy"
+    position {
+      value: 0.77280020713806152
+    }
+    velocity {
+      value: -0.32654279470443726
+    }
+    acceleration {
+      value: 0.44713044166564941
+    }
+    load {
+      value: 4.1010761260986328
+    }
+  }
+  joint_states {
+    name: "fl.kn"
+    position {
+      value: -1.5208299160003662
+    }
+    velocity {
+      value: 0.04982868954539299
+    }
+    acceleration {
+      value: 4.0613889694213867
+    }
+    load {
+      value: 17.9205265045166
+    }
+  }
+  joint_states {
+    name: "fr.hx"
+    position {
+      value: -0.013632978312671185
+    }
+    velocity {
+      value: 0.0078839957714080811
+    }
+    acceleration {
+      value: -3.6733472347259521
+    }
+    load {
+      value: 10.378744125366211
+    }
+  }
+  joint_states {
+    name: "fr.hy"
+    position {
+      value: 0.69768744707107544
+    }
+    velocity {
+      value: -0.35090771317481995
+    }
+    acceleration {
+      value: 1.5529570579528809
+    }
+    load {
+      value: 10.069284439086914
+    }
+  }
+  joint_states {
+    name: "fr.kn"
+    position {
+      value: -1.5676558017730713
+    }
+    velocity {
+      value: 0.052760221064090729
+    }
+    acceleration {
+      value: 7.83275032043457
+    }
+    load {
+      value: 27.213712692260742
+    }
+  }
+  joint_states {
+    name: "hl.hx"
+    position {
+      value: 0.045232955366373062
+    }
+    velocity {
+      value: -0.011058533564209938
+    }
+    acceleration {
+      value: 0.26549640297889709
+    }
+    load {
+      value: -8.033177375793457
+    }
+  }
+  joint_states {
+    name: "hl.hy"
+    position {
+      value: 0.67706477642059326
+    }
+    velocity {
+      value: -0.35117733478546143
+    }
+    acceleration {
+      value: -2.489138126373291
+    }
+    load {
+      value: 8.7296228408813477
+    }
+  }
+  joint_states {
+    name: "hl.kn"
+    position {
+      value: -1.5509516000747681
+    }
+    velocity {
+      value: 0.096254207193851471
+    }
+    acceleration {
+      value: -9.83760929107666
+    }
+    load {
+      value: 24.010686874389648
+    }
+  }
+  joint_states {
+    name: "hr.hx"
+    position {
+      value: 0.095739640295505524
+    }
+    velocity {
+      value: -0.0068711098283529282
+    }
+    acceleration {
+      value: 1.0356771945953369
+    }
+    load {
+      value: 6.70782470703125
+    }
+  }
+  joint_states {
+    name: "hr.hy"
+    position {
+      value: 0.77020442485809326
+    }
+    velocity {
+      value: -0.32331103086471558
+    }
+    acceleration {
+      value: 0.3258172869682312
+    }
+    load {
+      value: 8.5507993698120117
+    }
+  }
+  joint_states {
+    name: "hr.kn"
+    position {
+      value: -1.6287425756454468
+    }
+    velocity {
+      value: 0.018450865522027016
+    }
+    acceleration {
+      value: 5.0838460922241211
+    }
+    load {
+      value: 34.571018218994141
+    }
+  }
+  joint_states {
+    name: "arm0.sh0"
+    position {
+      value: 3.3140182495117188e-05
+    }
+    velocity {
+      value: 0.0082747293636202812
+    }
+    acceleration {
+      value: -1.2737075090408325
+    }
+    load {
+      value: 0.040065489709377289
+    }
+  }
+  joint_states {
+    name: "arm0.sh1"
+    position {
+      value: -3.1179852485656738
+    }
+    velocity {
+      value: 0.010328658856451511
+    }
+    acceleration {
+      value: -0.026251712813973427
+    }
+    load {
+      value: 1.2447165250778198
+    }
+  }
+  joint_states {
+    name: "arm0.el0"
+    position {
+      value: 3.1431670188903809
+    }
+    velocity {
+      value: 0.00411246670410037
+    }
+    acceleration {
+      value: -1.6435321569442749
+    }
+    load {
+      value: 0.66812139749526978
+    }
+  }
+  joint_states {
+    name: "arm0.el1"
+    position {
+      value: 1.5680707693099976
+    }
+    velocity {
+      value: -0.0032290504314005375
+    }
+    acceleration {
+      value: 1.473604679107666
+    }
+    load {
+      value: 0.0063479500822722912
+    }
+  }
+  joint_states {
+    name: "arm0.wr0"
+    position {
+      value: 0.00090563297271728516
+    }
+    velocity {
+      value: 0.0113994674757123
+    }
+    acceleration {
+      value: 0.37892505526542664
+    }
+    load {
+      value: -0.086685515940189362
+    }
+  }
+  joint_states {
+    name: "arm0.wr1"
+    position {
+      value: -1.5693576335906982
+    }
+    velocity {
+      value: 0.0068756709806621075
+    }
+    acceleration {
+      value: -0.38142910599708557
+    }
+    load {
+      value: 0.056182939559221268
+    }
+  }
+  joint_states {
+    name: "arm0.f1x"
+    position {
+      value: -0.017310261726379395
+    }
+    velocity {
+      value: -0.012430621311068535
+    }
+    acceleration {
+      value: -2.6210098266601562
+    }
+    load {
+      value: 0.18040888011455536
+    }
+  }
+  velocity_of_body_in_vision {
+    linear {
+      x: -0.028986886143684387
+      y: -0.16277016699314117
+      z: -0.010498004965484142
+    }
+    angular {
+      x: 0.01611010916531086
+      y: 0.02830062061548233
+      z: -0.00407232204452157
+    }
+  }
+  velocity_of_body_in_odom {
+    linear {
+      x: -0.15659180283546448
+      y: 0.053041271865367889
+      z: -0.010498005896806717
+    }
+    angular {
+      x: 0.025568187236785889
+      y: -0.020167510956525803
+      z: -0.0040723215788602829
+    }
+  }
+  acquisition_timestamp {
+    seconds: 1744877852
+    nanos: 498964992
+  }
+  transforms_snapshot {
+    child_to_parent_edge_map {
+      key: "vision"
+      value {
+        parent_frame_name: "body"
+        parent_tform_child {
+          position {
+            x: -2.6583116054534912
+            y: -1.7087494134902954
+            z: -0.38694906234741211
+          }
+          rotation {
+            x: -0.0021682269871234894
+            y: -0.0016073071165010333
+            z: -0.60557025671005249
+            w: 0.7957872748374939
+          }
+        }
+      }
+    }
+    child_to_parent_edge_map {
+      key: "odom"
+      value {
+        parent_frame_name: "body"
+        parent_tform_child {
+          position {
+            x: -2.8090567588806152
+            y: -1.5969021320343018
+            z: -8.2281370162963867
+          }
+          rotation {
+            x: -0.0026323746424168348
+            y: 0.00059602805413305759
+            z: 0.20854836702346802
+            w: 0.97800832986831665
+          }
+        }
+      }
+    }
+    child_to_parent_edge_map {
+      key: "link_wr1"
+      value {
+        parent_frame_name: "body"
+        parent_tform_child {
+          position {
+            x: 0.35865491628646851
+            y: 2.2089552658144385e-06
+            z: 0.26081183552742004
+          }
+          rotation {
+            x: -0.00063789001433178782
+            y: 0.012591482140123844
+            z: 0.00047744956100359559
+            w: 0.99992042779922485
+          }
+        }
+      }
+    }
+    child_to_parent_edge_map {
+      key: "hand"
+      value {
+        parent_frame_name: "body"
+        parent_tform_child {
+          position {
+            x: 0.55416280031204224
+            y: 0.00018580209871288389
+            z: 0.25588706135749817
+          }
+          rotation {
+            x: -0.00063789001433178782
+            y: 0.012591482140123844
+            z: 0.00047744956100359559
+            w: 0.99992042779922485
+          }
+        }
+      }
+    }
+    child_to_parent_edge_map {
+      key: "gpe"
+      value {
+        parent_frame_name: "odom"
+        parent_tform_child {
+          position {
+            x: 3.1974923610687256
+            y: 0.27176192402839661
+            z: 7.7267918586730957
+          }
+          rotation {
+            x: 0.0028375459369271994
+            y: -0.00017015640332829207
+            z: -4.8282862508131075e-07
+            w: 0.9999960064888
+          }
+        }
+      }
+    }
+    child_to_parent_edge_map {
+      key: "flat_body"
+      value {
+        parent_frame_name: "body"
+        parent_tform_child {
+          position {
+          }
+          rotation {
+            x: -0.0026987949386239052
+            y: 3.3942815207410604e-05
+            z: -9.773195586149086e-08
+            w: 0.9999963641166687
+          }
+        }
+      }
+    }
+    child_to_parent_edge_map {
+      key: "feet_center"
+      value {
+        parent_frame_name: "body"
+        parent_tform_child {
+          position {
+            x: 0.055650472640991211
+            y: 0.031880497932434082
+            z: -0.51051664352416992
+          }
+          rotation {
+            x: -0.0026989639736711979
+            y: 1.5476227417821065e-05
+            z: -0.0068423263728618622
+            w: 0.999972939491272
+          }
+        }
+      }
+    }
+    child_to_parent_edge_map {
+      key: "body"
+      value {
+        parent_tform_child {
+          position {
+          }
+          rotation {
+            w: 1
+          }
+        }
+      }
+    }
+    child_to_parent_edge_map {
+      key: "arm0.link_wr1"
+      value {
+        parent_frame_name: "body"
+        parent_tform_child {
+          position {
+            x: 0.35865491628646851
+            y: 2.2089552658144385e-06
+            z: 0.26081183552742004
+          }
+          rotation {
+            x: -0.00063789001433178782
+            y: 0.012591482140123844
+            z: 0.00047744956100359559
+            w: 0.99992042779922485
+          }
+        }
+      }
+    }
+  }
+}
+behavior_fault_state {
+}
+foot_state {
+  foot_position_rt_body {
+    x: 0.31853896379470825
+    y: 0.22878165543079376
+    z: -0.51058447360992432
+  }
+  contact: CONTACT_MADE
+  terrain {
+    ground_mu_est: 0.60000002384185791
+    frame_name: "odom"
+    foot_slip_distance_rt_frame {
+      x: -0.00014949053002055734
+      y: -1.6402093024225906e-05
+      z: 3.1536000477672133e-08
+    }
+    foot_slip_velocity_rt_frame {
+      x: -0.0011924683349207044
+      y: -0.0036412084009498358
+      z: 9.1434394562384114e-06
+    }
+    ground_contact_normal_rt_frame {
+      x: -6.6970475018024445e-05
+      y: 0.0025330604985356331
+      z: 0.99999678134918213
+    }
+  }
+}
+foot_state {
+  foot_position_rt_body {
+    x: 0.37013375759124756
+    y: -0.17292715609073639
+    z: -0.51136374473571777
+  }
+  contact: CONTACT_MADE
+  terrain {
+    ground_mu_est: 0.60000002384185791
+    frame_name: "odom"
+    foot_slip_distance_rt_frame {
+      x: -0.00010845236829482019
+      y: -7.4931718700099736e-05
+      z: -6.1713473087365855e-07
+    }
+    foot_slip_velocity_rt_frame {
+      x: 0.0021942737512290478
+      y: -0.0082000847905874252
+      z: 8.8909531768877059e-05
+    }
+    ground_contact_normal_rt_frame {
+      x: -0.011123873293399811
+      y: 0.007864935323596
+      z: 0.99990725517272949
+    }
+  }
+}
+foot_state {
+  foot_position_rt_body {
+    x: -0.21914803981781006
+    y: 0.18915030360221863
+    z: -0.510158121585846
+  }
+  contact: CONTACT_MADE
+  terrain {
+    ground_mu_est: 0.60000002384185791
+    frame_name: "odom"
+    foot_slip_distance_rt_frame {
+      x: -0.00012110285024391487
+      y: -0.00027438063989393413
+      z: -1.7520660549052991e-06
+    }
+    foot_slip_velocity_rt_frame {
+      x: -0.00151094573084265
+      y: 0.00081299355952069163
+      z: -5.3500076546697528e-07
+    }
+    ground_contact_normal_rt_frame {
+      x: -0.0030626337975263596
+      y: -0.0050337882712483406
+      z: 0.99998271465301514
+    }
+  }
+}
+foot_state {
+  foot_position_rt_body {
+    x: -0.24692308902740479
+    y: -0.11748246103525162
+    z: -0.50995832681655884
+  }
+  contact: CONTACT_MADE
+  terrain {
+    ground_mu_est: 0.60000002384185791
+    frame_name: "odom"
+    foot_slip_distance_rt_frame {
+      x: 4.0257713408209383e-05
+      y: -6.3007173594087362e-05
+      z: 6.25757934358262e-07
+    }
+    foot_slip_velocity_rt_frame {
+      x: -0.0032566539011895657
+      y: 0.002803353825584054
+      z: -2.5535813620081171e-05
+    }
+    ground_contact_normal_rt_frame {
+      x: 0.0015732636675238609
+      y: 0.010936146602034569
+      z: 0.99993896484375
+    }
+  }
+}
+manipulator_state {
+  stow_state: STOWSTATE_STOWED
+  gripper_open_percentage: 1.1025667190551758
+  estimated_end_effector_force_in_hand {
+    x: 10.563342094421387
+    y: 0.014193329960107803
+    z: 16.354103088378906
+  }
+  velocity_of_hand_in_vision {
+    linear {
+      x: -0.023585289716720581
+      y: -0.16540944576263428
+      z: -0.011272172443568707
+    }
+    angular {
+      x: 0.0033052675426006317
+      y: 0.035920310765504837
+      z: 0.015584513545036316
+    }
+  }
+  velocity_of_hand_in_odom {
+    linear {
+      x: -0.16001041233539581
+      y: 0.0480959489941597
+      z: -0.011272173374891281
+    }
+    angular {
+      x: 0.035019952803850174
+      y: -0.0086484923958778381
+      z: 0.015584513545036316
+    }
+  }
+  carry_state: CARRY_STATE_NOT_CARRIABLE
+}
+terrain_state {
+}
+system_state {
+  motor_temperatures {
+    name: "fl.hxa"
+    temperature: 37.102348327636719
+  }
+  motor_temperatures {
+    name: "fl.hya"
+    temperature: 37.4911994934082
+  }
+  motor_temperatures {
+    name: "fl.kna"
+    temperature: 42.692699432373047
+  }
+  motor_temperatures {
+    name: "fr.hxa"
+    temperature: 38.895099639892578
+  }
+  motor_temperatures {
+    name: "fr.hya"
+    temperature: 41.132247924804688
+  }
+  motor_temperatures {
+    name: "fr.kna"
+    temperature: 43.293647766113281
+  }
+  motor_temperatures {
+    name: "hl.hxa"
+    temperature: 37.152847290039062
+  }
+  motor_temperatures {
+    name: "hl.hya"
+    temperature: 40.920146942138672
+  }
+  motor_temperatures {
+    name: "hl.kna"
+    temperature: 45.515647888183594
+  }
+  motor_temperatures {
+    name: "hr.hxa"
+    temperature: 36.354949951171875
+  }
+  motor_temperatures {
+    name: "hr.hya"
+    temperature: 40.238399505615234
+  }
+  motor_temperatures {
+    name: "hr.kna"
+    temperature: 44.439998626708984
+  }
+  motor_temperatures {
+    name: "arm0.sh0a"
+    temperature: 38.167900085449219
+  }
+  motor_temperatures {
+    name: "arm0.sh1a"
+    temperature: 39.743499755859375
+  }
+  motor_temperatures {
+    name: "arm0.el0a"
+    temperature: 42.677547454833984
+  }
+  motor_temperatures {
+    name: "arm0.el1a"
+    temperature: 35.0674934387207
+  }
+  motor_temperatures {
+    name: "arm0.wr0a"
+    temperature: 42.333290100097656
+  }
+  motor_temperatures {
+    name: "arm0.wr1a"
+    temperature: 41.81500244140625
+  }
+  motor_temperatures {
+    name: "arm0.f1xa"
+    temperature: 42.753787994384766
+  }
+}
+behavior_state {
+  state: STATE_STEPPING
+}
